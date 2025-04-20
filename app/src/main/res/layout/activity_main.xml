@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_main.xml -->
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Lutemon" />
+
+    <Button android:id="@+id/btnTrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Train Lutemon"
+        android:layout_marginTop="16dp"/>
+
+    <Button android:id="@+id/btnMove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move Lutemon"
+        android:layout_marginTop="16dp"/>
+
+    <Button android:id="@+id/btnBattle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Battle"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

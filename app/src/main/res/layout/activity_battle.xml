@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Lutemon A:" />
+
+        <Spinner
+            android:id="@+id/spinnerA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Lutemon B:"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnStartBattle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Battle"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/txtBattleLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Battle log appears here..."
+            android:layout_marginTop="24dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

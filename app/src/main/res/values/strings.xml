@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">project_Lutemon</string>
+    <string-array name="colors_array">
+        <item>White</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Black</item>
+    </string-array>
+
+</resources>
